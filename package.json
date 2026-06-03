@@ -1,12 +1,11 @@
 {
   "name": "opencode-supercharged",
   "version": "1.0.0",
-  "description": "Supercharged open-code development workspace and agent orchestration environment",
+  "description": "OpenCode development workspace and agent orchestration environment",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env index.js",
-    "test:verify": "node verify.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "Saied (seatroops)",
