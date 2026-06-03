@@ -1,0 +1,8 @@
+{
+  "project": "opencode-supercharged",
+  "paths": {
+    "skills": "./agents/skills",
+    "designSystem": "./design-systems"
+  },
+  "status": "ready"
+}
