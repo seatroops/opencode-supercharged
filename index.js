@@ -9,6 +9,9 @@ try {
   console.log(`🛠️  Skills Mapping : ${config.paths.skills}`);
   console.log(`🎨 Design Assets  : ${config.paths.designSystem}`);
   console.log(`🚦 System Status  : ${config.status.toUpperCase()}`);
+  
+  // Verify native environment variable injection
+  console.log(`🌐 Local Runtime  : ${process.env.NODE_ENV || 'production (loaded)'}`);
 } catch (error) {
   console.error("❌ Configuration Mapping Error:", error.message);
 }
