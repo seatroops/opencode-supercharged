@@ -1,13 +1,13 @@
 {
   "name": "opencode-supercharged",
   "version": "1.0.0",
-  "description": "",
+  "description": "Supercharged open-code development workspace and agent orchestration environment",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "author": "Saied (seatroops)",
+  "license": "ISC"
 }
